@@ -7,8 +7,21 @@ interface PromptInputProps {
 }
 
 const moodSuggestions = [
-  "happy", "sad", "romantic", "energetic", "study", "gym",
-  "party", "relaxed", "confident", "nostalgic",
+  "happy",
+  "sad",
+  "romantic",
+  "energetic",
+  "study",
+  "gym",
+  "party",
+  "relaxed",
+  "confident",
+  "nostalgic",
+  "christian", // general Christian mood
+  "worship", // calm, reverent mood
+  "praise", // joyful and lively
+  "devotional", // quiet, reflective mood
+  "gospel", // traditional or soulful Christian music
 ];
 
 const PromptInput: React.FC<PromptInputProps> = ({ onSend }) => {
